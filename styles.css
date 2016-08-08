@@ -1,6 +1,48 @@
+html {
+	background-color: mediumpurple;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 img {
 	position: absolute;
-	height: 100px;
+	height: 300px;
+	margin-left: -133px;
+	margin-top: 50px;
+}
+
+#title {
+	margin-top: 350px;
+	text-align: center;
+}
+
+#loader {
+	position: relative;
+	
+}
+
+p {
+	font-family: "Avenir Next Condensed";
+	font-size: 50px;
+	margin-top: -25px;
+	color: white;
+}
+
+h1 {
+ 	font-family: 'Kaushan Script', cursive;
+	font-size: 120px;
+	margin: 0;
+	color: #ffe923;
+	text-shadow: 2px 2px 200px white;
+}
+
+span {
+	color: #fdcb2f;
 }
 
 .chickHair{
