@@ -9,6 +9,19 @@ html {
 	align-items: center;
 }
 
+#contactIcons {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.icons {
+	position: relative;
+	height: 30px;
+}
+
 img {
 	position: absolute;
 	height: 300px;
@@ -35,14 +48,18 @@ p {
 
 h1 {
  	font-family: 'Kaushan Script', cursive;
-	font-size: 120px;
+	font-size: 90px;
 	margin: 0;
 	color: #ffe923;
-	text-shadow: 2px 2px 200px white;
+	text-shadow: 2px 2px 150px white;
 }
 
-span {
+#Code {
 	color: #fdcb2f;
+}
+
+#ellipsis {
+	
 }
 
 .chickHair{
@@ -182,3 +199,30 @@ span {
     -ms-transform:  translate(0px,0px)  rotate(0deg) ;
   }
 }
+
+
+.loading:after {
+  content: ' .';
+  animation: dots 1.5s steps(5, end) infinite;}
+
+@keyframes dots {
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  40% {
+    color: white;
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  60% {
+    text-shadow:
+      .25em 0 0 white,
+      .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+      .25em 0 0 white,
+      .5em 0 0 white;}}
+
+
